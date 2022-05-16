@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Realtime Chat App em ReactJS e NodeJS | Socket.io 
+## Wassup! 
+- Aplicativo de bate-papo em tempo real completo utilizando o React no front-end, com a biblioteca web socket NodeJS + Socket.io no back-end.
+- Essa build fornece um bom entendimento de como enviar e receber mensagens usando web sockets e Socket.io para fazer qualquer aplicação em tempo real.
+- Sem dúvidas a utilização de apps de mensagens hoje em dia é fundamental para a comunicação em forma de textos, áudios, imagens e até mesmo vídeos.
+- Por isso a construção desse tipo de app é um desafio e ao mesmo tempo uma ótima forma de estudo para entender melhor a integração entre front e back-end.
+- E pra que isso seja feito de uma forma otimizada e funcional, o Node tem integração direta e fácil utilizando Socket.io.
+- Socket.io é uma implementação em Node para web socket, ou seja, uma forma de fazer comunicação em tempo real, e mais importante que isso é sua possibilidade de fallBack. 
+- Comunicação cliente-servidor em tempo real com Socket.IO
+- O Socket.io é uma das melhores opções para comunicação em tempo real quando utilizamos o Node. Outra coisa muito importante é o fato de poder integrá-lo a outros Stacks, como em uma aplicação feita em PHP, Java, etc. E o mais interessante é que é possível fazer com autenticação e tudo mais.
+- O Socket.io também é muito fácil de escalar, como é em tempo real, o chamamos de IO intensive, ou seja, acontece muito IO quando estamos utilizando o mesmo.
+Exemplo: Por algum motivo seus clientes que estão se conectando ao Socket.io não têm suporte ao web Socket, então ele vai tentar outras maneiras (não tão performáticas como AJAX). Nesta situação, o Node se destaca de outras tecnologias, pois ele suporta mais usuários.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![chat](https://user-images.githubusercontent.com/81476932/168676480-9676fedc-668a-4715-9a03-f1adeab07d79.png)
